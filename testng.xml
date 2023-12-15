@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MySuite" parallel="methods" thread-count="2">
+    <test name="MyTest">
+        <groups>
+            <run>
+                <include name="group1" />
+            </run>
+        </groups>
+        <classes>
+            <class name="path.to.your.MyTest" />
+        </classes>
+    </test>
+</suite>
